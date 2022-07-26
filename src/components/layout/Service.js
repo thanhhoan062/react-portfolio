@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from './Title';
-import '../../asset/css/Service.css';
 import services from '../../constants/services';
+import '../../asset/css/Service.css';
 
 const Service = () => {
   return (

@@ -3,7 +3,7 @@ import HomeAnimation from './HomeAnimation';
 import { Link } from 'react-router-dom';
 import { Contact } from '../layout';
 import '../../asset/css/Home.css';
-import { Contact, Service } from '../layout';
+import { Contact, Service, Jobs } from '../layout';
 
 const Home = () => {
   return (
@@ -31,7 +31,7 @@ const Home = () => {
         </header>
         {/* <HomeAnimation /> */}
         <Service />
-        {/* <Jobs /> */}
+        <Jobs />
       </>
     </main>
   );
