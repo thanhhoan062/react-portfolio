@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import { NavBar, Service } from './components/layout';
+import { NavBar } from './components/layout';
 
 import { Home, About } from './components/page';
 

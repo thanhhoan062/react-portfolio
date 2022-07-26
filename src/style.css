@@ -127,7 +127,7 @@ p {
 }
 
 /*  global button */
-.btn {
+.btn-common {
   text-transform: uppercase;
   background: var(--clr-primary-5);
   color: var(--clr-primary-9);
@@ -143,7 +143,7 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
-.btn:hover {
+.btn-common:hover {
   color: #044e53;
   background: var(--clr-primary-8);
 }
@@ -251,99 +251,6 @@ p {
     transform: rotate(360deg);
   }
 } */
-
-/*--------------Custom CSS ---------*/
-
-.title-with-icon img {
-  /* margin-right: 10px; */
-  display: block;
-  margin: auto;
-  height: 60px;
-  width: 60px;
-  margin-bottom: 0px;
-}
-
-div.component {
-  /* margin-top: 150px; */
-  /* display:'inline-block';
-  text-align: 'left'; */
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  /* padding: 10px; */
-}
-
-#portfolio h1,
-#blog-container h1 {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 65%, #8fbdba 65%);
-  display: inline;
-  font-size: 4rem;
-}
-
-.text {
-  display: inline-block;
-  text-align: left;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.text-section {
-  padding-top: 4%;
-}
-
-.text-section#skills {
-  padding-top: 5%;
-}
-
-form {
-  margin: 2%;
-}
-
-/* .badge,
-.btn,
-.btn-group-toggle {
-  margin-left: 0.5%;
-  margin-bottom: 10px;
-} */
-
-.button-wrapper .btn {
-  margin-bottom: 6px;
-}
-
-.blog .card,
-.comment-card {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media only screen and (max-width: 767px) {
-  nav#mainNav {
-    background-color: transparent;
-  }
-  li .nav-link.js-scroll {
-    font-size: smaller;
-    /* text-align: right; */
-  }
-  div.component {
-    padding-top: 10%;
-  }
-  div#about {
-    margin-top: 0rem;
-  }
-
-  div.sidenav img {
-    width: 20px;
-    height: 20px;
-    margin-top: 1px;
-  }
-  div.sidenav {
-    height: 260px;
-    width: 80px;
-  }
-  div.sidenav a {
-    padding: 5px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Nav Bar

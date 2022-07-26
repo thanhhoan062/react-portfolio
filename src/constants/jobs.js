@@ -1,10 +1,10 @@
 import React from 'react';
-import { FaCode, FaSketch, FaAndroid } from 'react-icons/fa';
 const jobs = [
   {
     id: 1,
-    company: 'Tommy',
-    date: 'December 2015 - Present',
+    company: 'D2T Software',
+    date: 'Tháng 11/2019 - Tháng 10/2021',
+    position: 'Full Stack Web Developer',
     exp: [
       {
         id: 9,
@@ -19,12 +19,12 @@ const jobs = [
         name: 'Butcher drinking vinegar franzen authentic messenger bag copper mug food truck taxidermy. Mumblecore lomo echo park readymade iPhone migas single-origin coffee franzen cloud bread tilde vegan flexitarian.',
       },
     ],
-    position: 'Full Stack Web Developer',
   },
   {
     id: 2,
-    company: 'BigDrop',
-    date: 'May 2015 - December 2015',
+    company: 'Tập đoàn Bảo Việt',
+    date: 'Tháng 10/2021 - Tháng 1/2023',
+    position: 'Back-End Web Developer',
     exp: [
       {
         id: 5,
@@ -43,31 +43,6 @@ const jobs = [
         name: 'Polaroid succulents tumeric before they sold out taiyaki master cleanse neutra. Hammock photo booth live-edge disrupt.',
       },
     ],
-    position: 'Front-End Engineer',
-  },
-  {
-    id: 3,
-    company: 'cuker',
-    date: 'May 2014 - September 2015',
-    exp: [
-      {
-        id: 1,
-        name: 'Bushwick jianbing humblebrag chicharrones truffaut, ramps williamsburg.',
-      },
-      {
-        id: 4,
-        name: "Farm-to-table quinoa man bun, 90's mlkshk blue bottle wayfarers everyday carry heirloom asymmetrical swag pok pok.",
-      },
-      {
-        id: 3,
-        name: 'Mixtape church-key synth, whatever pickled prism migas green juice iPhone vaporware pour-over fam chia craft beer.',
-      },
-      {
-        id: 2,
-        name: 'Prism tumblr freegan cloud bread squid palo santo, disrupt twee.',
-      },
-    ],
-    position: 'Engineering Intern',
   },
 ];
 

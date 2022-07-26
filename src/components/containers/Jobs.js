@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+import Title from '../layout/Title';
 import jobs from '../../constants/jobs';
 import { FaAngleDoubleRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -42,7 +42,7 @@ const Jobs = () => {
           })}
         </article>
       </div>
-      <Link to="/about" className="btn center-btn">
+      <Link to="/about" className="btn-common center-btn">
         more info
       </Link>
     </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from './Title';
+import Title from '../layout/Title';
 import services from '../../constants/services';
 import '../../asset/css/Service.css';
 
