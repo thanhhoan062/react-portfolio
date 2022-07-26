@@ -8,7 +8,7 @@ const initialState = {
 
 const projectsReducer = (state = initialState, action) => {
   switch (action.type) {
-    case LOADING_STACKS:
+    case 'LOADING_STACKS':
       return {
         ...state,
         stack: [...state.stacks],

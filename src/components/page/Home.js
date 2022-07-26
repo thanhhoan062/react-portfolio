@@ -1,10 +1,9 @@
 import React from 'react';
 import HomeAnimation from './HomeAnimation';
 import { Link } from 'react-router-dom';
-import { NavBar, Contact } from '../layout';
+import { Contact } from '../layout';
 import '../../asset/css/Home.css';
-import socialLinks from '../../constants/socialLinks';
-import { Contact } from '../components/layout';
+import { Contact, Service } from '../layout';
 
 const Home = () => {
   return (
@@ -31,8 +30,8 @@ const Home = () => {
           </section>
         </header>
         {/* <HomeAnimation /> */}
-        <Services />
-        <Jobs />
+        <Service />
+        {/* <Jobs /> */}
       </>
     </main>
   );
