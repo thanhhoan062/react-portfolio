@@ -1,7 +1,8 @@
 import React from 'react';
 import Title from '../layout/Title';
 import projects from '../../constants/projects';
-import Project from '../Project';
+import Project from './Project';
+import { Link } from 'react-router-dom';
 import '../../asset/css/Projects.css';
 
 const Projects = ({ title, showLink }) => {

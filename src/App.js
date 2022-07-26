@@ -3,8 +3,7 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { NavBar } from './components/layout';
-
-import { Home, About } from './components/page';
+import { Home, About, ProjectsPage } from './components/page';
 
 const App = () => {
   return (
@@ -15,7 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/project" element={<ProjectContainer />} /> */}
+          <Route path="/projects" element={<ProjectsPage />} />
         </Routes>
       </div>
     </BrowserRouter>
