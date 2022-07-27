@@ -32,7 +32,7 @@ const Project = ({
           <a href={github}>
             <FaGithubSquare className="project-icon"></FaGithubSquare>
           </a>
-          <a href={url}>
+          <a href={url} target="_blank">
             <FaShareSquare className="project-icon"></FaShareSquare>
           </a>
         </div>

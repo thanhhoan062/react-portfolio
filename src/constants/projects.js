@@ -1,22 +1,24 @@
 import React from 'react';
 const projects = [
   {
+    id: 'Project_3',
+    slug: 'react-project',
+    title: 'Spring-social',
+    github:
+      'https://github.com/thanhhoan062/social-client/tree/develop-jobify-version',
+    url: 'http://spring-social.herokuapp.com/',
     description:
       "I'm baby salvia lomo yuccie, vinyl seitan XOXO tousled bicycle rights slow-carb occupy taiyaki microdosing brunch. Photo booth slow-carb health goth kickstarter cardigan. Roof party pour-over swag pork belly glossier DIY farm-to-table godard locavore. Chicharrones gastropub slow-carb food truck tumblr semiotics, heirloom ugh wolf unicorn thundercats health goth.",
     featured: true,
-    github: 'https://www.johnsmilga.com/',
-    id: 'Project_3',
-    slug: 'angular-project',
-    title: 'angular project',
-    url: 'https://www.johnsmilga.com/',
+
     stack: [
       {
         id: 6,
-        title: 'angular',
+        title: 'Java - Spring Boot',
       },
       {
         id: 7,
-        title: 'firebase',
+        title: 'Reactjs',
       },
     ],
     image:
