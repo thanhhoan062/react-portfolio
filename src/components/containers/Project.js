@@ -18,9 +18,9 @@ const Project = ({
       <div className="project-info">
         <span className="project-number">0{index + 1}.</span>
 
-        <Link to={`/projects/${slug}`} className="project-slug">
+        <a href={url} target="_blank" className="project-slug">
           <h3>{title}</h3>
-        </Link>
+        </a>
 
         <p className="project-desc">{description}</p>
         <div className="project-stack">
@@ -31,9 +31,6 @@ const Project = ({
         <div className="project-links">
           <a href={github}>
             <FaGithubSquare className="project-icon"></FaGithubSquare>
-          </a>
-          <a href={url} target="_blank">
-            <FaShareSquare className="project-icon"></FaShareSquare>
           </a>
         </div>
       </div>
