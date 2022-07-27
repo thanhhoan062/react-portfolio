@@ -2,8 +2,8 @@ import React from 'react';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import { NavBar } from './components/layout';
-import { Home, About, ProjectsPage } from './components/page';
+import { NavBar, Footer } from './components/layout';
+import { Home, About, ProjectsPage, ContactPage } from './components/page';
 
 const App = () => {
   return (
@@ -15,7 +15,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
