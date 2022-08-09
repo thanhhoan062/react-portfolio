@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaGithubSquare, FaShareSquare } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { FaGithubSquare } from 'react-icons/fa';
 
 const Project = ({
   description,

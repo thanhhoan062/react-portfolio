@@ -8,7 +8,7 @@ import {
   About,
   ProjectsPage,
   ContactPage,
-  ProjectDetail,
+  // ProjectDetail,
 } from './components/page';
 
 const App = () => {
@@ -22,7 +22,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/project/:slug" element={<ProjectDetail />} />
+          {/* <Route path="/project/:slug" element={<ProjectDetail />} /> */}
         </Routes>
         <Footer />
       </div>

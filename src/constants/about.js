@@ -1,5 +1,3 @@
-import React from 'react';
-
 const about = {
   title: 'about me',
   image: {

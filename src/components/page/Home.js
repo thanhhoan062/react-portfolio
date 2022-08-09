@@ -1,5 +1,4 @@
 import React from 'react';
-import HomeAnimation from './HomeAnimation';
 import { Link } from 'react-router-dom';
 import { Contact } from '../layout';
 import '../../asset/css/Home.css';
